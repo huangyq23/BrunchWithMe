@@ -1,0 +1,22 @@
+@import "bourbon/bourbon";
+@import "font-awesome/font-awesome";
+@import "button";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: hidden;
+  @include user-select(none);
+}
+
+body {
+  padding: 0 10px;
+  @include retina-image('../img/vertical_cloth', 399px 400px);
+}
+
+
+
+
+
+
